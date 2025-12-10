@@ -1,6 +1,6 @@
 # 🌊 Fluid Mechanics Library
 
-![Language](https://img.shields.io/badge/language-C++-blue.svg) ![Field](https://img.shields.io/badge/field-Aerospace%20Engineering-orange.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Language](https://img.shields.io/badge/language-C++-blue.svg) ![Field](https://img.shields.io/badge/field-Aerospace%20Engineering-orange.svg) 
 
 A centralized C++ library of engineering tools and solvers for Fluid Dynamics (CFD), Hydraulics, and Hydrostatics. Developed by **Airwolf Dynamics** to automate complex analyses in aerospace applications.
 
