@@ -1,32 +1,35 @@
-# 🐺 Aero Tools
+# 🌊 Fluid Mechanics Library
 
-![Language](https://img.shields.io/badge/language-C++-blue.svg) ![Focus](https://img.shields.io/badge/focus-CFD%20%26%20Aerodynamics-orange.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Language](https://img.shields.io/badge/language-C++-blue.svg) ![Field](https://img.shields.io/badge/field-Aerospace%20Engineering-orange.svg) ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
-**Engineering Utilities Library** developed by *Kıvanç Apaydın*.
+A centralized C++ library of engineering tools and solvers for Fluid Dynamics (CFD), Hydraulics, and Hydrostatics. Developed by **Airwolf Dynamics** to automate complex analyses in aerospace applications.
 
-This repository serves as a centralized collection of C++ numerical tools developed for Aeronautical Engineering applications. It focuses on automating complex calculations for Fluid Dynamics (CFD), Aerodynamics, and Hydraulic Systems.
+## 📂 Internal Modules
 
-## 📂 Available Modules
+| Category | Module | Description | Status |
+| :--- | :--- | :--- | :--- |
+| **Hydraulics** | **[Hydraulic Pipe Flow](./Pipe-Flow)** | Solves the Colebrook-White equation for pressure drop and head loss in internal flows. | ✅ Stable |
+| **Dynamics** | **[Tank Sloshing Analysis](./Tank-Acceleration)** | Analyzes fluid surface deformation and spill conditions under linear & angular acceleration. | ✅ Stable |
+| **Statics** | **[Hydrostatic Force Calc](./Hydrostatic-Force)** | Calculates resultant forces on submerged rectangular surfaces (Tilted/Vertical). | ✅ Stable |
 
-| Module | Description | Status |
-| :--- | :--- | :--- |
-| **[Boundary Layer Inflation](./Boundary-Layer)** | Calculates geometric growth ratios for CFD meshing ($y^+$ control) using the Bisection Method. | ✅ Stable |
-| **[Hydraulic Pipe Flow](./Pipe-Flow)** | Solves the Colebrook-White equation to determine pressure drop and head loss in internal flows. | ✅ Stable |
-| **[Tank Sloshing Analysis](./Tank-Acceleration)** | Analyzes free-surface deformation under linear and rotational acceleration. | ✅ Stable |
+## 🔗 Related Projects
 
-## 📜 Project History
-
-> *These tools were originally developed during the author's undergraduate studies for Fluid Dynamics and Aerodynamics courses (2023-2024). They have been refactored, modernized, and consolidated into this library by AI assistants under the author's supervision to meet professional open-source standards.*
+Check out the standalone CFD meshing tool developed by the author:
+* **[Boundary-Layer-Tool](https://github.com/KivancApaydin1907/Boundary-Layer-Tool):** Geometric growth ratio calculator for inflation layers ($y^+$).
 
 ## 🛠️ Getting Started
 
-To use these tools locally, clone the repository:
+Clone the entire library to your local machine:
 
 ```bash
-git clone [https://github.com/KivancApaydin1907/Aero-Tools.git](https://github.com/KivancApaydin1907/Aero-Tools.git)
-cd Aero-Tools
+git clone [https://github.com/KivancApaydin1907/Fluid-Mechanics-Library.git](https://github.com/KivancApaydin1907/Fluid-Mechanics-Library.git)
+cd Fluid-Mechanics-Library
 ```
-Navigate to the specific module folder to compile and run the tools.
+Each module operates independently. Navigate to the specific folder to compile and run the tools using g++
+
+## 📜 Project History
+
+These tools were originally developed during the author's undergraduate studies for Fluid Dynamics courses (2023-2024). They have been refactored, modernized, and consolidated into this library by AI assistants under the author's supervision.
 
 ## ✍️ Author
 
